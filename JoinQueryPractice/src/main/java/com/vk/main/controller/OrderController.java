@@ -64,6 +64,7 @@ public class OrderController {
 	@GetMapping("/inner")
 	public List<OrderResponse> getJoinInformation3()
 	{
+System.out.println("abc");
 		return customerRepository.getInnerJoin();
 	}
 	
